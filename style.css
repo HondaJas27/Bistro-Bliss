@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black {
+    background-color: rgba(71, 71, 71, 1);
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: rgba(249, 249, 247, 1);
+    align-items: center;
+    font-family: dm sans;
+}
+
+.call img {
+    height: 30px;
+    width: 30px;
+}
+
+.media img {
+    height: 35px;
+    width: 160px;
+}
+
+
+section{
+    min-height: 60vh;
+    background-color: black;
+}
+
+.hero{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
